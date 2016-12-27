@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>ConcreteWalls</name>
+	<targetVersion>0.15.1284</targetVersion>
+	<author>Porohkun</author>
+	<url></url>
+	<description>
+Adds really strong walls, doors and embrasures.
+And Concrete slabs for building this walls and other stone stuff from vanilla and other mods.
+And one research for crafting it in Electric smelter.
+
+Concrete wall about 5 times stronger than a stone wall.
+	</description>
+</ModMetaData>
