@@ -1,9 +1,7 @@
-# ConcreteWalls mod for RimWorld
+# ConcreteOnly mod for RimWorld
 
 targetVersion 0.15.1284
 
-Adds really strong walls, doors and embrasures.
-And Concrete slabs for building this walls and other stone stuff from vanilla and other mods.
-And one research for crafting it in Electric smelter.
+This is fork of my ConcreteWalls mod (https://github.com/porohkun/ConcreteWalls) but without walls and stuff. Only concrete.
 
-Concrete wall about 5 times stronger than a stone wall.
+Steam workshop link: http://steamcommunity.com/sharedfiles/filedetails/?id=797196453
