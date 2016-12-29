@@ -77,8 +77,6 @@
       <texPath>Things/Building/CDoor</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <damageData>
-      <!--  no damage marks because they don't move with the door
-        <rect>(0,0.12,1,0.76)</rect>-->
         <enabled>false</enabled>
       </damageData>
     </graphicData>
@@ -129,10 +127,7 @@
       <li>ConcreteWorks</li>
     </researchPrerequisites>
     <designationCategory>Structure</designationCategory>
-    <fillPercent>0.99</fillPercent>
-		<!--<building>
-      <isInert>true</isInert>
-    </building>-->
+    <fillPercent>0.7</fillPercent>
 	</ThingDef>
 
 </ThingDefs>
