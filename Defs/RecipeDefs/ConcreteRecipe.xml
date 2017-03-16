@@ -4,12 +4,13 @@
   <RecipeDef>
     <defName>MakeConcreteSlabBricks</defName>
     <label>make concrete slabs from bricks</label>
-    <description>Make a concrete slab.</description>
-    <jobString>Making concrete slab.</jobString>
+    <description>Make concrete slabs.</description>
+    <jobString>Making concrete slabs.</jobString>
     <workSpeedStat>SmithingSpeed</workSpeedStat>
     <effectWorking>Smelt</effectWorking>
     <soundWorking>Recipe_Machining</soundWorking>
-    <workAmount>1000</workAmount>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>800</workAmount>
     <ingredients>
       <li>
         <filter>
@@ -17,7 +18,7 @@
             <li>StoneBlocks</li>
           </categories>
         </filter>
-        <count>2</count>
+        <count>4</count>
       </li>
       <li>
         <filter>
@@ -45,7 +46,7 @@
       </thingDefs>
     </defaultIngredientFilter>
     <products>
-      <ConcreteSlab>1</ConcreteSlab>
+      <ConcreteSlab>2</ConcreteSlab>
     </products>
     <workSkill>Crafting</workSkill>
     <researchPrerequisite>ConcreteWorks</researchPrerequisite>
@@ -57,8 +58,8 @@
   <RecipeDef>
     <defName>MakeConcreteSlabChunks</defName>
     <label>make concrete slabs from chunks</label>
-    <description>Make a concrete slab.</description>
-    <jobString>Making concrete slab.</jobString>
+    <description>Make concrete slabs.</description>
+    <jobString>Making concrete slabs.</jobString>
     <workSpeedStat>SmithingSpeed</workSpeedStat>
     <effectWorking>Smelt</effectWorking>
     <soundWorking>Recipe_Machining</soundWorking>
