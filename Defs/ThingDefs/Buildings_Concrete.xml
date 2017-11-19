@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ThingDefs>
+<Defs>
 
   <ThingDef ParentName="ResourceBase">
     <defName>ConcreteSlab</defName>
@@ -13,8 +13,12 @@
     <soundDrop>Standard_Drop</soundDrop>
     <useHitPoints>false</useHitPoints>
     <statBases>
+      <MaxHitPoints>600</MaxHitPoints>
       <MarketValue>8</MarketValue>
-      <Flammability>0.0</Flammability>
+      <SharpDamageMultiplier>0.6</SharpDamageMultiplier>
+      <BluntDamageMultiplier>1.0</BluntDamageMultiplier>
+      <Beauty>3</Beauty>
+      <Mass>2</Mass>
     </statBases>
     <thingCategories>
       <li>ResourcesRaw</li>
@@ -26,22 +30,21 @@
         <li>Stony</li>
       </categories>
       <color>(150,205,210)</color>
+      <appearance>Smooth</appearance>
+      <statOffsets>
+        <WorkToMake>200</WorkToMake>
+      </statOffsets>
+      <statFactors>
+        <MarketValue>0.5</MarketValue>
+        <MaxHitPoints>4</MaxHitPoints>
+        <Flammability>0.0</Flammability>
+        <WorkToMake>3</WorkToMake>
+        <MeleeWeapon_CooldownMultiplier>1.5</MeleeWeapon_CooldownMultiplier>
+      </statFactors>
       <constructEffect>ConstructMetal</constructEffect>
       <soundImpactStuff>BulletImpactMetal</soundImpactStuff>
       <soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
       <soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
-      <appearance>Smooth</appearance>
-      <statOffsets>
-        <WorkToMake>200</WorkToMake>
-        <Beauty>3</Beauty>
-      </statOffsets>
-      <statFactors>
-        <MaxHitPoints>4</MaxHitPoints>
-        <Flammability>0.0</Flammability>
-        <Beauty>3</Beauty>
-        <WorkToMake>3</WorkToMake>
-        <MeleeWeapon_Cooldown>1.5</MeleeWeapon_Cooldown>
-      </statFactors>
     </stuffProps>
   </ThingDef>
 
@@ -130,4 +133,4 @@
     <fillPercent>0.7</fillPercent>
 	</ThingDef>
 
-</ThingDefs>
+</Defs>
