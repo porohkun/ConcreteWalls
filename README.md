@@ -1,6 +1,6 @@
 # ConcreteOnly mod for RimWorld
 
-targetVersion 0.15.1284
+targetVersion 0.18.1722
 
 This is fork of my ConcreteWalls mod (https://github.com/porohkun/ConcreteWalls) but without walls and stuff. Only concrete.
 
