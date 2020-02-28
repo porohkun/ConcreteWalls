@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+    <MakeConcreteSlabBricks.label>用石砖制造混凝土板</MakeConcreteSlabBricks.label>
+    <MakeConcreteSlabBricks.description>制作混凝土板。</MakeConcreteSlabBricks.description>
+    <MakeConcreteSlabChunks.label>用石块制成混凝土板</MakeConcreteSlabChunks.label>
+    <MakeConcreteSlabChunks.description>制作混凝土板。</MakeConcreteSlabChunks.description>
+</LanguageData>
