@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+    <ConcreteSlab.label>混凝土板</ConcreteSlab.label>
+    <ConcreteSlab.description>钢筋混凝土板，用于建造坚固的墙壁</ConcreteSlab.description>
+    <ConcreteSlab.stuffProps.stuffAdjective>钢筋混凝土</ConcreteSlab.stuffProps.stuffAdjective>
+    <Embrasure.label>射击墙</Embrasure.label>
+    <Embrasure.description>无法通过的墙，能够支撑屋顶，具有允许从内部射击的开口。</Embrasure.description>
+</LanguageData>
