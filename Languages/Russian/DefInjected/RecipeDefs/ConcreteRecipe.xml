@@ -5,5 +5,5 @@
     <MakeConcreteSlabBricks.jobString>Изготавливает керамобетонную плиту</MakeConcreteSlabBricks.jobString>
     <MakeConcreteSlabChunks.label>Изготовить керамобетон из обломков камня</MakeConcreteSlabChunks.label>
     <MakeConcreteSlabChunks.description>Изготовить керамобетонные плиты</MakeConcreteSlabChunks.description>
-    <MakeConcreteSlabBricks.jobString>Изготавливает керамобетонную плиту</MakeConcreteSlabBricks.jobString>
+    <MakeConcreteSlabChunks.jobString>Изготавливает керамобетонную плиту</MakeConcreteSlabChunks.jobString>
 </LanguageData>
