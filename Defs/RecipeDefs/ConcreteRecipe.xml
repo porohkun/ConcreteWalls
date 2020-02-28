@@ -6,9 +6,9 @@
     <label>make concrete slabs from bricks</label>
     <description>Make concrete slabs.</description>
     <jobString>Making concrete slabs.</jobString>
-    <workSpeedStat>SmithingSpeed</workSpeedStat>
+    <workSpeedStat>SmeltingSpeed</workSpeedStat>
     <effectWorking>Smelt</effectWorking>
-    <soundWorking>Recipe_Machining</soundWorking>
+    <soundWorking>Recipe_Smelt</soundWorking>
     <allowMixingIngredients>true</allowMixingIngredients>
     <workAmount>800</workAmount>
     <ingredients>
@@ -46,7 +46,7 @@
       </thingDefs>
     </defaultIngredientFilter>
     <products>
-      <ConcreteSlab>2</ConcreteSlab>
+      <ConcreteSlab>1</ConcreteSlab>
     </products>
     <workSkill>Crafting</workSkill>
     <researchPrerequisite>ConcreteWorks</researchPrerequisite>
@@ -60,9 +60,9 @@
     <label>make concrete slabs from chunks</label>
     <description>Make concrete slabs.</description>
     <jobString>Making concrete slabs.</jobString>
-    <workSpeedStat>SmithingSpeed</workSpeedStat>
+    <workSpeedStat>SmeltingSpeed</workSpeedStat>
     <effectWorking>Smelt</effectWorking>
-    <soundWorking>Recipe_Machining</soundWorking>
+    <soundWorking>Recipe_Smelt</soundWorking>
     <workAmount>4000</workAmount>
     <ingredients>
       <li>
@@ -99,7 +99,7 @@
       </thingDefs>
     </defaultIngredientFilter>
     <products>
-      <ConcreteSlab>10</ConcreteSlab>
+      <ConcreteSlab>5</ConcreteSlab>
     </products>
     <workSkill>Crafting</workSkill>
     <researchPrerequisite>ConcreteWorks</researchPrerequisite>

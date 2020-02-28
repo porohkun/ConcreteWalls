@@ -1,6 +1,6 @@
 # ConcreteWalls mod for RimWorld
 
-targetVersion 1.0.2059
+targetVersion 1.1.2557
 
 Adds really strong walls, doors and embrasures.
 And Concrete slabs for building this walls and other stone stuff from vanilla and other mods.
