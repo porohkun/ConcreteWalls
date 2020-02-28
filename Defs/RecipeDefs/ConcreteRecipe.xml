@@ -5,7 +5,7 @@
     <defName>MakeConcreteSlabBricks</defName>
     <label>make concrete slabs from bricks</label>
     <description>Make concrete slabs.</description>
-    <jobString>Making concrete slabs.</jobString>
+    <jobString>Making concrete slabs</jobString>
     <workSpeedStat>SmeltingSpeed</workSpeedStat>
     <effectWorking>Smelt</effectWorking>
     <soundWorking>Recipe_Smelt</soundWorking>
@@ -59,7 +59,7 @@
     <defName>MakeConcreteSlabChunks</defName>
     <label>make concrete slabs from chunks</label>
     <description>Make concrete slabs.</description>
-    <jobString>Making concrete slabs.</jobString>
+    <jobString>Making concrete slabs</jobString>
     <workSpeedStat>SmeltingSpeed</workSpeedStat>
     <effectWorking>Smelt</effectWorking>
     <soundWorking>Recipe_Smelt</soundWorking>

@@ -53,7 +53,7 @@
 
   <ThingDef Name="Embrasure" ParentName="Wall">
     <defName>Embrasure</defName>
-    <label>Embrasure</label>
+    <label>embrasure</label>
     <description>An impassable wall. Capable of holding up a roof. Has openings that allow firing from within.</description>
     <thingClass>Building</thingClass>
     <category>Building</category>
