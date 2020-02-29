@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+	<ConcreteWalls_AllowEmbrasuresName>Allow embrasures</ConcreteWalls_AllowEmbrasuresName>
+	<ConcreteWalls_AllowEmbrasuresDesc>When on - allows build embrasures. when shitching off already builded embrasures will not disappear.</ConcreteWalls_AllowEmbrasuresDesc>
+</LanguageData>

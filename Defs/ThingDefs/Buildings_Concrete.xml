@@ -57,6 +57,7 @@
     <description>An impassable wall. Capable of holding up a roof. Has openings that allow firing from within.</description>
     <thingClass>Building</thingClass>
     <category>Building</category>
+    <designationCategory>Structure</designationCategory>
     <graphicData>
       <texPath>Things/Building/Linked/Embrasure</texPath>
       <graphicClass>Graphic_Appearances</graphicClass>

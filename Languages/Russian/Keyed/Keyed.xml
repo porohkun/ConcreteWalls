@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+	<ConcreteWalls_AllowEmbrasuresName>Разрешить стены с амбразурами</ConcreteWalls_AllowEmbrasuresName>
+	<ConcreteWalls_AllowEmbrasuresDesc>Если включено - разрешает строить стены с амбразурами. При отключении опции уже построенные амбразуры не исчезнут.</ConcreteWalls_AllowEmbrasuresDesc>
+</LanguageData>
