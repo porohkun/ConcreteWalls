@@ -53,6 +53,10 @@
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <PostBuildEvent>if not exist "..\..\..\Assemblies\" mkdir "..\..\..\Assemblies"
-xcopy /b/v/y $(TargetPath) ..\..\..\Assemblies</PostBuildEvent>
+xcopy /b/v/y $(TargetPath) ..\..\..\Assemblies
+del /s /q "..\Debug\*"
+del /s /q "..\Release\*"
+del /s /q "..\..\obj\Debug\*"
+del /s /q "..\..\obj\Release\*"</PostBuildEvent>
   </PropertyGroup>
 </Project>
