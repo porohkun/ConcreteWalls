@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+	<ConcreteWalls_AllowEmbrasuresName>允許射擊墻</ConcreteWalls_AllowEmbrasuresName>
+	<ConcreteWalls_AllowEmbrasuresDesc>啟用 - 允許建造射擊墻。當禁用時，已經建造的射擊墻不會消失。</ConcreteWalls_AllowEmbrasuresDesc>
+</LanguageData>
