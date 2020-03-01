@@ -1,10 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-	<name>Concrete Only</name>
-	<targetVersion>0.18.1722</targetVersion>
 	<author>Porohkun</author>
-	<url></url>
+	<name>Concrete Only</name>
+	<packageId>Porohkun.ConcreteOnly</packageId>
+	<url>https://github.com/porohkun/ConcreteWalls</url>
+	<supportedVersions>
+		<li>1.0</li>
+		<li>1.1</li>
+	</supportedVersions>
 	<description>
 This is fork of my ConcreteWalls mod (http://steamcommunity.com/sharedfiles/filedetails/?id=795240891) but without walls and stuff. Only concrete.
+
+/!\ ATTENTION /!\ version 1.1 is the last for this mod. Use ConcreteWalls mod instead - it have now option for disable embrasures in mod settings, and dont have additional walls and doors type.
 	</description>
 </ModMetaData>

@@ -25,7 +25,7 @@
     </thingCategories>
     <stackLimit>75</stackLimit>
     <stuffProps>
-      <stuffAdjective>concrete slab</stuffAdjective>
+      <stuffAdjective>reinforced concrete</stuffAdjective>
       <categories>
         <li>Stony</li>
       </categories>
@@ -36,13 +36,16 @@
       </statOffsets>
       <statFactors>
         <MarketValue>0.5</MarketValue>
-        <MaxHitPoints>4</MaxHitPoints>
+        <MaxHitPoints>8.5</MaxHitPoints>
         <Flammability>0.0</Flammability>
         <WorkToMake>3</WorkToMake>
-        <MeleeWeapon_CooldownMultiplier>1.5</MeleeWeapon_CooldownMultiplier>
+        <WorkToBuild>14</WorkToBuild>
+        <DoorOpenSpeed>0.45</DoorOpenSpeed>
+        <BedRestEffectiveness>0.7</BedRestEffectiveness>
+        <MeleeWeapon_CooldownMultiplier>2</MeleeWeapon_CooldownMultiplier>
       </statFactors>
       <constructEffect>ConstructMetal</constructEffect>
-      <soundImpactStuff>BulletImpactMetal</soundImpactStuff>
+      <soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
       <soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
       <soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
     </stuffProps>
