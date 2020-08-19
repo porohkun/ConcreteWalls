@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+	<ConcreteWalls_AllowEmbrasuresName>允许射击墙</ConcreteWalls_AllowEmbrasuresName>
+	<ConcreteWalls_AllowEmbrasuresDesc>开启 - 允许建造射击墙。当切换为关闭时，已经建造的射击墙不会消失。</ConcreteWalls_AllowEmbrasuresDesc>
+</LanguageData>
