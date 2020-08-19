@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <RecipeDef>
+    <defName>MakeConcreteSlabBricks</defName>
+    <label>make concrete slabs from bricks</label>
+    <description>Make concrete slabs.</description>
+    <jobString>Making concrete slabs.</jobString>
+    <workSpeedStat>SmithingSpeed</workSpeedStat>
+    <effectWorking>Smelt</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>800</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>StoneBlocks</li>
+          </categories>
+        </filter>
+        <count>4</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>StoneBlocks</li>
+      </categories>
+      <thingDefs>
+        <li>Steel</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <defaultIngredientFilter>
+      <categories>
+        <li>ResourcesRaw</li>
+      </categories>
+      <thingDefs>
+        <li>Steel</li>
+      </thingDefs>
+    </defaultIngredientFilter>
+    <products>
+      <ConcreteSlab>2</ConcreteSlab>
+    </products>
+    <workSkill>Crafting</workSkill>
+    <researchPrerequisite>ConcreteWorks</researchPrerequisite>
+    <recipeUsers>
+      <li>ElectricSmelter</li>
+    </recipeUsers>
+  </RecipeDef>
+
+  <RecipeDef>
+    <defName>MakeConcreteSlabChunks</defName>
+    <label>make concrete slabs from chunks</label>
+    <description>Make concrete slabs.</description>
+    <jobString>Making concrete slabs.</jobString>
+    <workSpeedStat>SmithingSpeed</workSpeedStat>
+    <effectWorking>Smelt</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <workAmount>4000</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>StoneChunks</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>StoneChunks</li>
+      </categories>
+      <thingDefs>
+        <li>Steel</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <defaultIngredientFilter>
+      <categories>
+        <li>Chunks</li>
+      </categories>
+      <thingDefs>
+        <li>Steel</li>
+      </thingDefs>
+    </defaultIngredientFilter>
+    <products>
+      <ConcreteSlab>10</ConcreteSlab>
+    </products>
+    <workSkill>Crafting</workSkill>
+    <researchPrerequisite>ConcreteWorks</researchPrerequisite>
+    <recipeUsers>
+      <li>ElectricSmelter</li>
+    </recipeUsers>
+  </RecipeDef>
+
+</Defs>

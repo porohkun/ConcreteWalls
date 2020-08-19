@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="ResourceBase">
+    <defName>ConcreteSlab</defName>
+    <label>concrete slabs</label>
+    <description>Reinforced concrete slab for strong walls</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/CSlab</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Metal_Drop</soundInteract>
+    <soundDrop>Standard_Drop</soundDrop>
+    <useHitPoints>false</useHitPoints>
+    <statBases>
+      <MaxHitPoints>600</MaxHitPoints>
+      <MarketValue>8</MarketValue>
+      <SharpDamageMultiplier>0.6</SharpDamageMultiplier>
+      <BluntDamageMultiplier>1.0</BluntDamageMultiplier>
+      <Beauty>3</Beauty>
+      <Mass>2</Mass>
+    </statBases>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <stackLimit>75</stackLimit>
+    <stuffProps>
+      <stuffAdjective>reinforced concrete</stuffAdjective>
+      <categories>
+        <li>Stony</li>
+      </categories>
+      <color>(150,205,210)</color>
+      <appearance>Concrete</appearance>
+      <statOffsets>
+        <WorkToMake>200</WorkToMake>
+      </statOffsets>
+      <statFactors>
+        <MarketValue>0.5</MarketValue>
+        <MaxHitPoints>8.5</MaxHitPoints>
+        <Flammability>0.0</Flammability>
+        <WorkToMake>3</WorkToMake>
+        <WorkToBuild>14</WorkToBuild>
+        <DoorOpenSpeed>0.45</DoorOpenSpeed>
+        <BedRestEffectiveness>0.7</BedRestEffectiveness>
+        <MeleeWeapon_CooldownMultiplier>2</MeleeWeapon_CooldownMultiplier>
+      </statFactors>
+      <constructEffect>ConstructMetal</constructEffect>
+      <soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
+      <soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
+    </stuffProps>
+  </ThingDef>
+
+  <ThingDef Name="Embrasure" ParentName="Wall">
+    <defName>Embrasure</defName>
+    <label>embrasure</label>
+    <description>An impassable wall. Capable of holding up a roof. Has openings that allow firing from within.</description>
+    <thingClass>Building</thingClass>
+    <category>Building</category>
+    <designationCategory>Structure</designationCategory>
+    <graphicData>
+      <texPath>Things/Building/Linked/Embrasure</texPath>
+      <graphicClass>Graphic_Appearances</graphicClass>
+      <linkType>CornerFiller</linkType>
+      <linkFlags>
+        <li>Wall</li>
+        <li>Rock</li>
+      </linkFlags>
+      <damageData>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+        <edgeTop>Damage/Edge</edgeTop>
+        <edgeBot>Damage/Edge</edgeBot>
+        <edgeLeft>Damage/Edge</edgeLeft>
+        <edgeRight>Damage/Edge</edgeRight>
+      </damageData>
+    </graphicData>
+    <uiIconPath>Things/Building/Linked/EmbrasureSmooth_MenuIcon</uiIconPath>
+    <statBases>
+      <MaxHitPoints>250</MaxHitPoints>
+      <WorkToBuild>150</WorkToBuild>
+      <Flammability>1.0</Flammability>
+    </statBases>
+    <building>
+      <isInert>true</isInert>
+      <ai_chillDestination>false</ai_chillDestination>
+      <blueprintGraphicData>
+        <texPath>Things/Building/Linked/Embrasure_Blueprint_Atlas</texPath>
+      </blueprintGraphicData>
+    </building>
+    <fillPercent>0.7</fillPercent>
+  </ThingDef>
+
+</Defs>

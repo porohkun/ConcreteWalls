@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ResearchProjectDef>
+    <defName>ConcreteWorks</defName>
+    <label>ceramic concrete</label>
+    <description>By smelting stone and steel fibers of a special structure in an electric smelter, you can get ceramic concrete - a very durable material of a bluish color, which holds both static load and dynamic (projectile, explosive) damage well. Often used on the frontier worlds as a building material.
+ATTENTION! Prolonged contact with uncoated ceramic concrete can lead to unpleasant consequences, such as itching, burning, redness, capillary bleeding, coughing, loss of virginity, death.</description>
+    <baseCost>2000</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>Electricity</li>
+    </prerequisites>
+    <researchViewX>4</researchViewX>
+    <researchViewY>4.3</researchViewY>
+  </ResearchProjectDef>
+
+</Defs>

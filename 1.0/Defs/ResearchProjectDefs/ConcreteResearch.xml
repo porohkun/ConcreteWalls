@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ResearchProjectDef>
+    <defName>ConcreteWorks</defName>
+    <label>concrete works</label>
+    <description>Learn to create reinforced concrete slabs at Electric smelter.</description>
+    <baseCost>2000</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>Electricity</li>
+    </prerequisites>
+    <researchViewX>4</researchViewX>
+    <researchViewY>4.3</researchViewY>
+  </ResearchProjectDef>
+
+</Defs>

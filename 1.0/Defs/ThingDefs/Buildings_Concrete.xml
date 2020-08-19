@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="ResourceBase">
+    <defName>ConcreteSlab</defName>
+    <label>concrete slabs</label>
+    <description>Reinforced concrete slab for strong walls</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/CSlab</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Metal_Drop</soundInteract>
+    <soundDrop>Standard_Drop</soundDrop>
+    <useHitPoints>false</useHitPoints>
+    <statBases>
+      <MaxHitPoints>600</MaxHitPoints>
+      <MarketValue>8</MarketValue>
+      <SharpDamageMultiplier>0.6</SharpDamageMultiplier>
+      <BluntDamageMultiplier>1.0</BluntDamageMultiplier>
+      <Beauty>3</Beauty>
+      <Mass>2</Mass>
+    </statBases>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <stackLimit>75</stackLimit>
+    <stuffProps>
+      <stuffAdjective>concrete slab</stuffAdjective>
+      <categories>
+        <li>Stony</li>
+      </categories>
+      <color>(150,205,210)</color>
+      <appearance>Smooth</appearance>
+      <statOffsets>
+        <WorkToMake>200</WorkToMake>
+      </statOffsets>
+      <statFactors>
+        <MarketValue>0.5</MarketValue>
+        <MaxHitPoints>4</MaxHitPoints>
+        <Flammability>0.0</Flammability>
+        <WorkToMake>3</WorkToMake>
+        <MeleeWeapon_CooldownMultiplier>1.5</MeleeWeapon_CooldownMultiplier>
+      </statFactors>
+      <constructEffect>ConstructMetal</constructEffect>
+      <soundImpactStuff>BulletImpactMetal</soundImpactStuff>
+      <soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
+    </stuffProps>
+  </ThingDef>
+
+  <ThingDef ParentName="BuildingBase" Name="ConcreteWall">
+    <defName>ConcreteWall</defName>
+    <label>Reinforced concrete wall</label>
+    <description>Reinforced concrete wall. More strong than concrete common wall.</description>
+    <thingClass>Building</thingClass>
+    <category>Building</category>
+    <graphicData>
+      <texPath>Things/Building/CWall</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <color>(255,255,255)</color>
+      <linkType>CornerFiller</linkType>
+      <linkFlags>
+        <li>Wall</li>
+        <li>Rock</li>
+      </linkFlags>
+      <damageData>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+        <edgeTop>Damage/Edge</edgeTop>
+        <edgeBot>Damage/Edge</edgeBot>
+        <edgeLeft>Damage/Edge</edgeLeft>
+        <edgeRight>Damage/Edge</edgeRight>
+      </damageData>
+    </graphicData>
+    <uiIconPath>UI/CWall</uiIconPath>
+    <statBases>
+      <MaxHitPoints>3000</MaxHitPoints>
+      <WorkToBuild>1500</WorkToBuild>
+      <Flammability>0.0</Flammability>
+    </statBases>
+    <costStuffCount>0</costStuffCount>
+    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>Impassable</passability>
+    <blockWind>true</blockWind>
+    <castEdgeShadows>true</castEdgeShadows>
+    <fillPercent>1</fillPercent>
+    <coversFloor>true</coversFloor>
+    <placingDraggableDimensions>1</placingDraggableDimensions>
+    <tickerType>Never</tickerType>
+    <rotatable>false</rotatable>
+    <selectable>true</selectable>
+    <neverMultiSelect>true</neverMultiSelect>
+    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+    <holdsRoof>true</holdsRoof>
+    <designationCategory>Structure</designationCategory>
+    <staticSunShadowHeight>1.0</staticSunShadowHeight>
+    <blockLight>true</blockLight>
+    <canOverlapZones>false</canOverlapZones>
+    <stuffCategories/>
+    <building>
+      <isInert>true</isInert>
+      <ai_chillDestination>false</ai_chillDestination>
+      <blueprintGraphicData>
+        <texPath>Things/Building/Linked/Wall_Blueprint_Atlas</texPath>
+      </blueprintGraphicData>
+    </building>
+    <damageMultipliers>
+      <li>
+        <damageDef>Bomb</damageDef>
+        <multiplier>2</multiplier>
+      </li>
+    </damageMultipliers>
+    <designationHotKey>Misc3</designationHotKey>
+    <costList>
+      <ConcreteSlab>10</ConcreteSlab>
+    </costList>
+    <researchPrerequisites>
+      <li>ConcreteWorks</li>
+    </researchPrerequisites>
+  </ThingDef>
+
+  <ThingDef ParentName="BuildingBase">
+    <defName>ConcreteAutodoor</defName>
+    <label>concrete autodoor</label>
+    <description>Divides rooms. Powered operation allows people to move through the door without slowing down.</description>
+    <graphicData>
+      <texPath>Things/Building/CDoor</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <damageData>
+        <enabled>false</enabled>
+      </damageData>
+    </graphicData>
+    <uiIconPath>UI/CDoor</uiIconPath>
+    <thingClass>Building_Door</thingClass>
+    <category>Building</category>
+    <altitudeLayer>DoorMoveable</altitudeLayer>
+    <fillPercent>1</fillPercent>
+    <useHitPoints>true</useHitPoints>
+    <statBases>
+      <MaxHitPoints>2700</MaxHitPoints>
+      <WorkToBuild>2000</WorkToBuild>
+      <Flammability>0.0</Flammability>
+    </statBases>
+    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+    <selectable>true</selectable>
+    <tickerType>Normal</tickerType>
+    <rotatable>false</rotatable>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <designationCategory>Structure</designationCategory>
+    <holdsRoof>true</holdsRoof>
+    <staticSunShadowHeight>1.0</staticSunShadowHeight>
+    <blockLight>true</blockLight>
+    <drawerType>RealtimeOnly</drawerType>
+    <building>
+      <isInert>true</isInert>
+      <canPlaceOverWall>true</canPlaceOverWall>
+      <soundDoorOpenPowered>Door_OpenPowered</soundDoorOpenPowered>
+      <soundDoorClosePowered>Door_ClosePowered</soundDoorClosePowered>
+      <soundDoorOpenManual>Door_OpenManual</soundDoorOpenManual>
+      <soundDoorCloseManual>Door_CloseManual</soundDoorCloseManual>
+      <blueprintClass>Blueprint_Door</blueprintClass>
+      <blueprintGraphicData>
+        <texPath>Things/Building/Door/Door_Blueprint</texPath>
+      </blueprintGraphicData>
+      <ai_chillDestination>false</ai_chillDestination>
+    </building>
+    <comps>
+      <li Class="CompProperties_Forbiddable"/>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>50</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Breakdownable"/>
+    </comps>
+    <placeWorkers>
+      <li>PlaceWorker_DoorLearnOpeningSpeed</li>
+    </placeWorkers>
+    <constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+    <costList>
+      <ConcreteSlab>10</ConcreteSlab>
+      <ComponentIndustrial>2</ComponentIndustrial>
+    </costList>
+    <researchPrerequisites>
+      <li>Autodoors</li>
+      <li>ConcreteWorks</li>
+    </researchPrerequisites>
+  </ThingDef>
+
+  <ThingDef Name="Embrasure" ParentName="ConcreteWall">
+    <defName>ConcreteEmbrasure</defName>
+    <label>Reinforced concrete embrasure</label>
+    <description>An impassable wall. Capable of holding up a roof. Has openings that allow firing from within.</description>
+    <graphicData>
+      <texPath>Things/Building/CEmbrasure</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <uiIconPath>UI/CEmbrasure</uiIconPath>
+    <statBases>
+      <MaxHitPoints>2500</MaxHitPoints>
+      <WorkToBuild>1700</WorkToBuild>
+      <Flammability>0.0</Flammability>
+    </statBases>
+    <researchPrerequisites>
+      <li>ConcreteWorks</li>
+    </researchPrerequisites>
+    <designationCategory>Structure</designationCategory>
+    <fillPercent>0.7</fillPercent>
+  </ThingDef>
+
+</Defs>

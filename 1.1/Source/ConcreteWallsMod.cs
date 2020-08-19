@@ -7,7 +7,7 @@ namespace ConcreteWalls
 {
     public class ConcreteWallsMod : ModBase
     {
-        public override string ModIdentifier => "ConcreteWalls";
+        //public override string ModIdentifier => "ConcreteWalls";
 
         private SettingHandle<bool> _allowEmbrasures;
 
