@@ -3,6 +3,9 @@
     <MakeConcreteSlabBricks.label>Изготовить керамобетон из блоков камня</MakeConcreteSlabBricks.label>
     <MakeConcreteSlabBricks.description>Изготовить керамобетонную плиту</MakeConcreteSlabBricks.description>
     <MakeConcreteSlabBricks.jobString>Изготавливает керамобетонную плиту</MakeConcreteSlabBricks.jobString>
+    <MakeConcreteSlabBricks4.label>Изготовить керамобетон из блоков камня x4</MakeConcreteSlabBricks4.label>
+    <MakeConcreteSlabBricks4.description>Изготовить 4 керамобетонные плиты</MakeConcreteSlabBricks4.description>
+    <MakeConcreteSlabBricks4.jobString>Изготавливает керамобетонную плиту</MakeConcreteSlabBricks4.jobString>
     <MakeConcreteSlabChunks.label>Изготовить керамобетон из обломков камня</MakeConcreteSlabChunks.label>
     <MakeConcreteSlabChunks.description>Изготовить керамобетонные плиты</MakeConcreteSlabChunks.description>
     <MakeConcreteSlabChunks.jobString>Изготавливает керамобетонную плиту</MakeConcreteSlabChunks.jobString>

@@ -2,7 +2,10 @@
 <LanguageData>
     <MakeConcreteSlabBricks.label>用石磚製造混凝土板</MakeConcreteSlabBricks.label>
     <MakeConcreteSlabBricks.description>製作混凝土板。</MakeConcreteSlabBricks.description>
-    <MakeConcreteSlabBricks.jobString>>製作混凝土板</<MakeConcreteSlabBricks.jobString>
+    <MakeConcreteSlabBricks.jobString>製作混凝土板</MakeConcreteSlabBricks.jobString>
+    <MakeConcreteSlabBricks4.label>用石磚製造混凝土板 x4</MakeConcreteSlabBricks4.label>
+    <MakeConcreteSlabBricks4.description>製作混凝土板。(4)</MakeConcreteSlabBricks4.description>
+    <MakeConcreteSlabBricks4.jobString>製作混凝土板</MakeConcreteSlabBricks4.jobString>
     <MakeConcreteSlabChunks.label>用石塊製成混凝土板</MakeConcreteSlabChunks.label>
     <MakeConcreteSlabChunks.description>製作混凝土板。</MakeConcreteSlabChunks.description>
     <MakeConcreteSlabChunks.jobString>>製作混凝土板</MakeConcreteSlabChunks.jobString>
